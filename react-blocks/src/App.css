@@ -1,0 +1,59 @@
+.App{
+  text-align: center;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+.header{
+  background-color: blue;
+  margin: 10px auto;
+  height:10vh;
+  width: 90%;
+  border: 5px solid black;
+}
+
+.mainContent{
+  background-color: darkgoldenrod;
+  margin: 10px auto;
+  height: 70vh;
+  width: 75%;
+  border: 5px solid black;
+  display: inline-flex;
+  justify-content: space-around;
+  position: relative;
+  flex-direction: column;
+
+}
+
+.navigation{
+  background-color:gray;
+  margin: 10px auto;
+  height: 70vh;
+  width: 10%;
+  margin-right: 50px;
+  border: 5px solid black;
+  display: inline-flex;
+  vertical-align: top;
+  
+}
+
+.subContent{
+  background-color: white;
+  margin: 10px auto;
+  height: 40vh;
+  width: 20%;
+  border: 5px solid black;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+  
+}
+
+.advertisement{
+  background-color: blue;
+  margin: 10px auto;
+  height: 15vh;
+  width: 80%;
+  border: 5px solid black;
+  position: relative;
+}
