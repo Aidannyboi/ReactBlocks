@@ -1,8 +1,10 @@
 const SubContent = () => {
     return (
-        <div className="subContent">
-            "These are sub contents!"
-        </div>
+        <button onClick={() => alert("Moving to clicked game!")} className="subContent">
+            <div>
+                "These are sub contents!"
+            </div>
+        </button>
     )
 }
 
